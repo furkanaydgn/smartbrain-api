@@ -1,6 +1,6 @@
 const Clarifai =require("clarifai");
 const app = new Clarifai.App({
-  apiKey: "56818236e3994cc2b8b36cf6add833c6",
+  apiKey: "",
 });
 
 const handleApicall=(req,res)=> {
