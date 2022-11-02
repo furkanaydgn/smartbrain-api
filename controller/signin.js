@@ -20,7 +20,7 @@ const signinHandler= (req,res,db,bcrypt)=> {
 			}else{
 				res.status(400).json("Kullanıcaya erişilemiyor")
 			}
-		res.status(400).json("yanlış kimlik")
+		res.status(400).json("yanlış kimlik..")
 	})
 	.catch(err => res.status(400).json("Kimlik hatasu"))
 }
